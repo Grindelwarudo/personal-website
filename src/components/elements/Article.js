@@ -4,31 +4,24 @@ function Article(props) {
   return (
     <div className="card article">
       <div className="card-header">
-        <a href={props.url} target="blank">
+        <a href={props.url} target="_blank" rel="noopener noreferrer">
           <p className="card-header-title">{props.title}</p>
         </a>
         <a
           href={props.url}
-          target="blank"
+          target="_blank"
+          rel="noopener noreferrer"
           className="card-header-icon"
-          aria-label="Dev Community"
+          aria-label="Google Scholar"
         >
           <span className="icon">
-            <i className="fab fa-2x fa-dev"></i>
+            <i className="fab fa-2x fa-google"></i>
           </span>
         </a>
       </div>
-      <div className="card-image">
-        <figure className="image">
-          <img width="1000" height="420" src={props.image} alt="" />
-        </figure>
-      </div>
       <div className="card-content">
-        <h1 className="heading">DEV.TO</h1>
-        <div className="content">
-          <p>{props.extract}</p>
-        </div>
-        <a href={props.url} target="blank">
+        <h1 className="heading">Authors: {props.authors}</h1>
+        <a href={props.url} target="_blank" rel="noopener noreferrer">
           Read the full article
         </a>
       </div>

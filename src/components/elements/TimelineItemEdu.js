@@ -1,6 +1,6 @@
 import React from "react";
 
-function TimelineItem(props) {
+function TimelineItemEdu(props) {
   return (
     <div className="timeline-item is-success">
       <div className="timeline-marker is-image is-32x32">
@@ -8,12 +8,12 @@ function TimelineItem(props) {
       </div>
       <div className="timeline-content">
         <p className="heading">{props.date}</p>
-        <h1 className="title is-4"><a target="_blank" rel="noreferrer" href={`${props.website}`}>{props.position}</a></h1>
-        <h2 className="subtitle is-6">{props.company}</h2>
-        <p style={{ maxWidth: "25em" }}>{props.summary}</p>
+        <h1 className="title is-4"><a target="_blank" rel="noreferrer"  href={`${props.website}`}>{props.area}</a></h1>
+        <h2 className="subtitle is-6">{props.institution}</h2>
+        <p style={{ maxWidth: "25em" }}>{props.studyType}</p>
       </div>
     </div>
   );
 }
 
-export default TimelineItem;
+export default TimelineItemEdu;

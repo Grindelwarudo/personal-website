@@ -8,24 +8,23 @@ class Articles extends Component {
   }
 
   componentDidMount() {
-    const devTo = "https://dev.to/api/articles?username=jcoelho";
+    const scholarAPI = "https://api.serpapi.com/search.json?q=Firas+Hammami&tbm=pts&filter=0&exclude_sites=biorxiv.org&sort_by=date&date_range_start=2000&api_key=YOUR_API_KEY";
 
-    fetch(devTo)
+    fetch(scholarAPI)
       .then(response => {
         return response.json();
       })
       .then(data => {
         let articles = [];
-        data = data.slice(0, 4);
+        data = data.organic_results.slice(0, 4);
         data.forEach((element, index) => {
           articles.push(
             <div className="column" key={index}>
               <Article
                 key={index}
                 title={element.title}
-                url={element.url}
-                image={element.cover_image}
-                extract={element.description}
+                url={element.link}
+                authors={element.authors}
               />
             </div>
           );
@@ -35,6 +34,9 @@ class Articles extends Component {
           articles.push(<div className="column"></div>);
         }
         this.setState({ articles: articles });
+      })
+      .catch(error => {
+        console.log("Error fetching articles:", error);
       });
   }
 
