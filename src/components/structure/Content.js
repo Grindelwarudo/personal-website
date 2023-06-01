@@ -10,7 +10,7 @@ function Content() {
       <AboutMe />
       <Skills />
       <Experience />
-      <Articles />
+      <Articles maxResults={2} />
     </main>
   );
 }

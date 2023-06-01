@@ -12,10 +12,10 @@ function Article(props) {
           target="_blank"
           rel="noopener noreferrer"
           className="card-header-icon"
-          aria-label="Google Scholar"
+          aria-label="Pubmed"
         >
           <span className="icon">
-            <i className="fab fa-2x fa-google"></i>
+            <i className="fa-solid fa-book"></i>
           </span>
         </a>
       </div>
