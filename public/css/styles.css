@@ -12,7 +12,7 @@ html {
     background-image: url('../images/firas2.webp'), url('../images/firas2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% auto;
 }
 .bulma-image {
     width: 200px;
