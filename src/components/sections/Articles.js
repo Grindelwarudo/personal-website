@@ -29,7 +29,7 @@ class Articles extends Component {
 
     const esearchURL = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=${maxResults}&term=${encodeURIComponent(
       searchTerm
-    )}&api_key=${apiKey}`;
+    )}&api_key=${process.env.YOUR_API_KEY}`;
 
     fetch(esearchURL)
       .then(response => response.text())
