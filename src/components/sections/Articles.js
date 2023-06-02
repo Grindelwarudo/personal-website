@@ -19,6 +19,11 @@ class Articles extends Component {
 
   componentDidMount() {
     const apiKey = process.env.YOUR_API_KEY;
+    if (apiKey === null) {
+      console.log("WARNING: API KEY EMPTY")
+    } else {
+      console.log("Pubmed = Ready!")
+    }
     const searchTerm = "Firas Hammami";
     const { maxResults } = this.props;
 
