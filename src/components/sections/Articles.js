@@ -19,17 +19,14 @@ class Articles extends Component {
 
   componentDidMount() {
     const apiKey = process.env.YOUR_API_KEY;
-    if (apiKey === null || apiKey === "") {
-      console.log("WARNING: API KEY EMPTY")
-    } else {
-      console.log("Pubmed = Ready!")
-    }
+    console.log(apiKey)
+
     const searchTerm = "Firas Hammami";
     const { maxResults } = this.props;
 
     const esearchURL = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=${maxResults}&term=${encodeURIComponent(
       searchTerm
-    )}&api_key=${process.env.YOUR_API_KEY}`;
+    )}&api_key=${apiKey}`;
 
     fetch(esearchURL)
       .then(response => response.text())
