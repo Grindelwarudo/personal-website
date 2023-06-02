@@ -19,8 +19,6 @@ class Articles extends Component {
 
   componentDidMount() {
     const apiKey = process.env.YOUR_API_KEY;
-    console.log(apiKey)
-
     const searchTerm = "Firas Hammami";
     const { maxResults } = this.props;
 

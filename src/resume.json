@@ -4,7 +4,7 @@
     "label": "Biomodeler",
     "picture": "images/avatar.webp",
     "x_pictureFallback": "images/avatar.jpg",
-    "x_title": "Hey There! Glad you're here",
+    "x_title": "Welcome!",
     "summary": "I'm currently working at Novadiscovery as a Biomodeler. I'm building mathematical models representing diseases to simulate the impact of drugs on the diseases... On virtual patients! I really enjoy using mathematical models to understand better the complex biological regulation.",
     "location": {
       "country": "France",
