@@ -12,12 +12,9 @@
     "npm": "8.11.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "dev": "react-scripts start",
+    "start": "serve build -s -n -L -p $PORT",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
