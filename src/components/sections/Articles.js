@@ -21,7 +21,7 @@ class Articles extends Component {
     const apiKey = process.env.YOUR_API_KEY;
     if (apiKey === null || apiKey === "") {
       console.log("WARNING: API KEY EMPTY")
-    } else if (apiKey === "") {
+    } else {
       console.log("Pubmed = Ready!")
     }
     const searchTerm = "Firas Hammami";
