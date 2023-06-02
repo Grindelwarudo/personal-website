@@ -9,11 +9,31 @@ html {
     margin: 30px 0 0 0;
 }
 .has-bg-image {
-    background-image: url('../images/firas2.webp'), url('../images/firas2.jpg');
+    /* background-image: url('../images/firas3.webp'), url('../images/firas3.jpg');  */
+    background-image: url('../images/firas3.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
 }
+
+@media only screen and (max-width: 1024px) {
+    .has-bg-image  {
+        background-image: url('../images/firas3_2.webp');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .has-bg-image  {
+        background-image: url('../images/firas3_long.webp');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+  }
+
 .bulma-image {
     width: 200px;
 }
