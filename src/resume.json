@@ -63,6 +63,7 @@
   "education": [
     {
       "institution": "Aix-Marseille University",
+      "website": "https://www.univ-amu.fr/",
       "area": "Bioinformatics and Genomics",
       "studyType": "PhD",
       "startDate": "2015-10-01",
@@ -70,6 +71,7 @@
     },
     {
       "institution": "Aix-Marseille Université",
+      "website": "https://www.univ-amu.fr/",
       "area": "Bioinformatics, Structural Biology and Genomics",
       "studyType": "Msc",
       "startDate": "2014-09-01",
@@ -77,6 +79,7 @@
     },
     {
       "institution": "Université Côte d'Azur",
+      "website": "https://univ-cotedazur.fr/",
       "area": "Life Sciences",
       "studyType": "Msc",
       "startDate": "2012-09-01",
