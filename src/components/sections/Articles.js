@@ -10,10 +10,8 @@ class Articles extends Component {
   formatAuthors(authors) {
     if (authors.length === 0) {
       return "";
-    } else if (authors.length === 1) {
-      return authors[0];
     } else {
-      return authors[0] + " et al.";
+      return authors.map(author => `${author.firstName} ${author.lastName}`).join(", ");
     }
   }
 
@@ -48,7 +46,11 @@ class Articles extends Component {
             const title = articleNode.getElementsByTagName("ArticleTitle")[0].textContent;
             const authors = Array.from(
               articleNode.getElementsByTagName("Author")
-            ).map(authorNode => authorNode.getElementsByTagName("LastName")[0].textContent);
+            ).map(authorNode => {
+              const firstName = authorNode.getElementsByTagName("ForeName")[0].textContent;
+              const lastName = authorNode.getElementsByTagName("LastName")[0].textContent;
+              return { firstName, lastName };
+            });
             const formattedAuthors = this.formatAuthors(authors);
             const url = `https://pubmed.ncbi.nlm.nih.gov/${uids.shift()}`;
             return { title, authors: formattedAuthors, url };

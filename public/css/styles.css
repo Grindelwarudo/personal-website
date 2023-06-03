@@ -16,6 +16,17 @@ html {
     background-size: 100% auto;
 }
 
+.header {
+    position: relative;
+    min-height: 150px;
+  }
+
+.is-aligned-bottom {
+    position: absolute;
+    bottom: 15%;
+    left: 2%;
+}
+
 @media only screen and (max-width: 1024px) {
     .has-bg-image  {
         background-image: url('../images/firas3_2.webp');

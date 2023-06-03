@@ -9,7 +9,7 @@ function Hero() {
         <NavBar />
       </div>
       <div className="hero-body">
-        <div className="container">
+        <div className="container is-aligned-bottom">
           <p className="subtitle is-5 has-text-weight-light">I'm a</p>
           <h1 className="title">{Resume.basics.label}</h1>
           <h2 className="subtitle">
