@@ -5,7 +5,7 @@
     "picture": "images/avatar.webp",
     "x_pictureFallback": "images/avatar.jpg",
     "x_title": "Welcome!",
-    "summary": "I'm currently working at Novadiscovery as a Biomodeler. I'm building mathematical models representing diseases to simulate the impact of drugs on the diseases... On virtual patients! I really enjoy using mathematical models to understand better the complex biological regulation.",
+    "summary": "I am a research fellow at Novadiscovery with expertise in building mathematical models for clinical trials, analyzing and simulating data to inform dosing decisions. With a background in bioinformatics and genomics, I have also taught statistics and bioinformatics courses at Aix-Marseille Université (France) and contributed to publications in the field.",
     "location": {
       "country": "France",
       "countryCode": "FR",
