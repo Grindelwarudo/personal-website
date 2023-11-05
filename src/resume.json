@@ -5,7 +5,7 @@
     "picture": "images/avatar.webp",
     "x_pictureFallback": "images/avatar.jpg",
     "x_title": "Welcome!",
-    "summary": "Experienced Research Fellow with expertise in data analysis, mathematical modeling, and bioinformatics. Seeking a Data Scientist position to leverage analytical skills and drive data-driven decisions.",
+    "summary": "I'm an experienced Research Fellow with expertise in data analysis, mathematical modeling, and bioinformatics. I'm seeking a Data Scientist position to leverage analytical skills and drive data-driven decisions.",
     "location": {
       "country": "France",
       "countryCode": "FR",
@@ -37,7 +37,7 @@
       "position": "Research Fellow",
       "website": "https://www.novadiscovery.com",
       "startDate": "2021-03-27",
-      "endDate": "2023-08-2023",
+      "endDate": "2023-08-21",
       "summary": "I worked as a Research Fellow, where I built, simulated and analyzed computational models reproducing diseases in order to optimize clinical trials.",
       "highlights": []
     },
