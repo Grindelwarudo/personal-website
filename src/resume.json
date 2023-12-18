@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Firas Hammami",
-    "label": "Researcher",
+    "label": "Scientist, Quantitative Systems Pharmacology",
     "picture": "images/avatar.webp",
     "x_pictureFallback": "images/avatar.jpg",
     "x_title": "Welcome!",
-    "summary": "I'm an experienced Research Fellow with expertise in data analysis, mathematical modeling, and bioinformatics. I'm seeking a Data Scientist position to leverage analytical skills and drive data-driven decisions.",
+    "summary": "",
     "location": {
       "country": "France",
       "countryCode": "FR",
