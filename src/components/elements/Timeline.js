@@ -46,11 +46,8 @@ return (
       content.push(
         items
           .filter(
-            (item) =>
-              (item.endDate === "present" &&
-                new Date(item.startDate).getFullYear() <= year) ||
-              (new Date(item.endDate).getFullYear() === year &&
-                new Date(item.startDate).getFullYear() < year)
+            (item) => (item.endDate === "present" && new Date(item.startDate).getFullYear() <= year) || 
+            (new Date(item.endDate).getFullYear() === year && new Date(item.startDate).getFullYear() <= year)
           )
           .map((item, j) => {
             if (item.company && item.position) {
@@ -98,6 +95,7 @@ return (
             return null;
           })
       );
+      console.log(content);
       return content;
     })}
   </div>

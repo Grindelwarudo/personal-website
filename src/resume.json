@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Firas Hammami",
-    "label": "Scientist, Quantitative Systems Pharmacology",
+    "label": "Scientist, Clinical Pharmacology and Quantitative Sciences",
     "picture": "images/avatar.webp",
     "x_pictureFallback": "images/avatar.jpg",
     "x_title": "Welcome!",
     "summary": "",
     "location": {
-      "country": "France",
-      "countryCode": "FR",
-      "region": "Cannes"
+      "country": "Netherlands",
+      "countryCode": "NL",
+    "region": "Utrecht"
     },
     "profiles": [
       {
@@ -32,6 +32,15 @@
     ]
   },
   "work": [
+    {
+      "company": "Genmab",
+      "position": "Scientist, Clinical Pharmacology & Quantitative Science",
+      "website": "https://www.genmab.com",
+      "startDate": "2024-04-01",
+      "endDate": "present",
+      "summary": "Will be updated soon :)",
+      "highlights": []
+    },
     {
       "company": "Novadiscovery",
       "position": "Research Fellow",
